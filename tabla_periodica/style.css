@@ -1,0 +1,117 @@
+table {
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    padding: 0px;
+}
+
+.elemento {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    border-radius: 6px;
+    transition: transform .2s, background-color .2s;
+
+
+}
+
+td:hover .elemento {
+    background-color: rgb(194, 56, 56);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.numero {
+    font-size: 14px;
+    align-self: flex-start;
+}
+
+.simbolo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nombre {
+    font-size: 12px;
+}
+
+.peso {
+    font-size: 10px;
+    color: gray;
+}
+
+.metales_alcalinos {
+    background-color: #244d57;
+}
+
+.alcalinoterreos {
+    background-color: #622e39;
+}
+
+.tradicional {
+    background-color: #433c65;
+}
+
+.noreactivos {
+    background-color: #2a4165;
+}
+
+.lantanidos {
+    background-color: #004a77;
+}
+
+.actinoides {
+    background-color: #613b28;
+}
+
+.metaloides {
+    background-color: #523e1b;
+}
+
+.prosta {
+    background-color: #2f4d47;
+}
+
+.gases {
+    background-color: #623842;
+}
+
+.desconocido {
+    background-color: gray;
+}
+
+.leyenda {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.leyenda div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.color {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+}
